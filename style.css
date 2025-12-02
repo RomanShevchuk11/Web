@@ -1,0 +1,128 @@
+  table {
+      width: 400px;
+      border: 1px solid #000;
+  }
+
+  tr,
+  td {
+      border: 1px solid #000;
+  }
+
+  html,
+  body {
+      margin: 0;
+      padding: 24px;
+      font-family: "Times New Roman", Georgia, serif;
+      color: #222;
+  }
+
+  h1 {
+      margin-left: 605px;
+      color: orange;
+  }
+
+  p {
+      line-height: 1.5;
+      text-align: justify;
+      margin: 12px 0 18px 0;
+      font-size: 16px;
+      max-width: 760px;
+  }
+
+  p::first-letter {
+      float: left;
+      font-size: 32px;
+      line-height: 0.5;
+      color: red;
+      font-weight: 700;
+      font-family: Georgia, "Times New Roman", serif;
+  }
+
+  em {
+      color: #fff;
+      font-style: italic;
+      background: green;
+  }
+
+  #allotment h2 {
+      color: orange;
+  }
+
+  #allotment li:nth-child(1) {
+      font-weight: 800;
+  }
+
+  #allotment li:nth-child(2) {
+      font-weight: 800;
+  }
+
+  #allotment .fruits-list li {
+      color: #9a9a9a;
+  }
+
+  #allotment .vegetables-list li {
+      color: red;
+  }
+
+  #warehouse h2 {
+      color: blue;
+  }
+
+  #warehouse li:nth-child(1) {
+      font-weight: 800;
+  }
+
+  #warehouse li:nth-child(2) {
+      font-weight: 800;
+  }
+
+  #warehouse .fruits-list li {
+      color: green;
+  }
+
+  #warehouse .vegetables-list li {
+      color: red;
+  }
+
+  .students-table thead tr:nth-child(1) td:nth-child(2) {
+      text-align: center;
+      font-weight: 800;
+  }
+
+  .students-table thead tr:nth-child(1) td:nth-child(1) {
+      text-align: center;
+      font-weight: 800;
+  }
+
+  .students-table thead tr:nth-child(2) td:nth-child(1) {
+      text-align: center;
+      font-weight: 800;
+  }
+
+  .students-table thead tr:nth-child(2) td:nth-child(2) {
+      text-align: center;
+      font-weight: 800;
+  }
+
+  .students-table thead tr:nth-child(2) td:nth-child(3) {
+      text-align: center;
+      font-weight: 800;
+  }
+
+  .students-table tbody tr:nth-child(1) td:nth-child(1) {
+      color: orange;
+  }
+
+  .students-table tbody tr:nth-child(2) td:nth-child(1) {
+      color: orange;
+  }
+
+  .students-table tbody tr:nth-child(3) td:nth-child(1) {
+      color: orange;
+  }
+
+  .students-table tbody tr td:nth-child(n+2) {
+      background-color: green;
+      color: white;
+      text-align: center;
+  }
